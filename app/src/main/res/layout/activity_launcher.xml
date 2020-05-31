@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.LauncherActivity">
+    <ImageView
+        android:id="@+id/launchingImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/splash"
+        android:scaleType="fitCenter"/>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/powredby"-->
+<!--        android:text="Powered By -"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:layout_marginBottom="20dp"/>-->
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_centerHorizontal="true"-->
+<!--        android:text="DAWAY" />-->
+
+
+    <TextView
+        android:id="@+id/india"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/copyright"
+        android:layout_marginBottom="10dp"
+        android:layout_centerHorizontal="true"
+        android:text="Powered by©"
+        android:textStyle="bold"
+        android:textColor="@color/textColorBlack"
+        android:textSize="22dp" />
+
+<!--    <ImageView-->
+<!--        android:id="@+id/flag"-->
+<!--        android:layout_width="20dp"-->
+<!--        android:layout_height="10dp"-->
+<!--        android:layout_alignBottom="@+id/india"-->
+<!--        android:layout_marginBottom="2dp"-->
+<!--        android:layout_toEndOf="@+id/india"-->
+<!--        android:layout_toRightOf="@+id/india"-->
+<!--        android:src="@drawable/india" />-->
+
+    <TextView
+        android:id="@+id/copyright"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"
+        android:layout_centerHorizontal="true"
+        android:text="Dave's Brother Technology"
+        android:textColor="@color/textColorBlack"
+        android:textSize="22dp" />
+
+
+</RelativeLayout>
